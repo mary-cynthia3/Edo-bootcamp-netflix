@@ -1,0 +1,477 @@
+/* This is the css for the first section */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   width: 100%;
+   height: 100%;
+}
+.First-page{
+   background: rgba(0, 0, 0, 0.7) url(Images/NG-en-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+   background-blend-mode:darken;
+   height: 40rem;
+   margin-bottom: 8px solid grey;
+}
+.logo{
+    width: 10%;
+   
+}
+
+.signin{
+   background-color: #eb0000;
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   width: 8%;
+   height: 40px;
+   font-family: sans-serif;
+   cursor: pointer;
+   border-radius: 6px;
+}
+.Getstarted{
+   background-color: #eb0000; 
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   width: 15%;
+   height: 50px;
+   font-family: sans-serif;
+   cursor: pointer;
+}
+
+.Email{
+   background-color: white;
+   text-align: left;
+   font-size: 18px;
+   font-family: sans-serif;
+   width: 30%;
+   height: 50px;
+   padding-left: 8px;
+   border: none;
+
+}
+.top{
+   display: flex;
+   justify-content: space-between;
+   padding: 3rem;
+}
+.P1{
+   text-align: center;
+   font-family: sans-serif;
+   color: white;
+   margin-top: 7rem;
+}
+#Unlimited{
+   font-size: 35pt;
+}
+#Watch{
+   font-size: 20pt;
+}
+#Ready{
+   font-size: 15pt;
+}
+
+/* This is the css for the second section */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.sec-2, .sec-3, .sec-5{
+    display: flex;
+    justify-content: space-between;
+    border-top: 9px solid rgba(128, 128, 128, 0.575);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-1-img-container {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  margin-right: 7em;
+  max-width: 500px;
+  /* width: 80%; */
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  height: 100%;
+  width: 100%;
+}
+.tv-animation-container {
+  margin: -10% -5% -5% 0;
+  overflow: hidden;
+  position: relative;
+}
+.card-img {
+  position: relative;
+  z-index: 2;
+}
+img {
+  
+  border-top-color: initial;
+  border-top-style: initial;
+  border-top-width: 0px;
+  border-right-color: initial;
+  border-right-style: initial;
+  border-right-width: 0px;
+  border-bottom-color: initial;
+  border-bottom-style: initial;
+  border-bottom-width: 0px;
+  border-left-color: initial;
+  border-left-style: initial;
+  border-left-width: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  height: auto;
+  max-width: 100%
+}
+.tv-animation {
+  height: 100%;
+  left: 50%;
+  max-height: 54%;
+  max-width: 73%;
+  position: absolute;
+  top: 46%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.tv-video {
+  height: 100%;
+  width: 100%;
+}
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.sec-3, .sec-5{
+    border-bottom: 9px solid rgba(128, 128, 128, 0.575);
+}
+.sec-5{
+    margin-bottom: 20px;
+}
+.sec-4{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.left-2 {
+  margin-top: 3%;
+}
+.left-2 h2, .right-3 h2, .right-5 h2{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.left-2 p, .right-3 p, .right-5 p{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.sec-4 h2{
+    font-size: 50px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.sec-4 p{
+    font-size: 30px;
+    margin-left: 1%;
+}
+.right-2 img{
+    margin-right: 20px;
+}
+/* .sec-6{
+    text-align: center;
+} */
+@media(max-width: 769px){
+
+    img{
+        width: 100%;
+    }
+    
+    .sec-3, .sec-5{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+    }
+    .sec-2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .left-2 {
+      margin-bottom: 3%;
+      margin-top: -8%;
+    }
+    .left-2 h2, .right-3 h2, .right-5 h2, .sec-4 h2{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .left-2 p, .right-3 p, .right-5 p, .sec-4 p{
+        font-size: 22px;
+        margin-left: 0px;
+    }
+    .sec-4 h2{
+        margin-bottom: 10px;
+    }
+    .sec-4{
+        margin: auto;
+        text-align: center;
+    }
+    .right-1-img-container {
+      margin-left: 20%;
+    }
+}
+
+/* This is the css for the third section */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 3rem 0 2.9rem 0;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  
+  /* input {
+    height: 50px;
+    font-size: 18px;
+  } */
+  
+  details {
+    margin: 1% 20%;
+    cursor: pointer;
+  }
+  
+  summary {
+    background-color: #303030;
+    font-size: 1.5rem;
+    line-height: 60px;
+    letter-spacing: 1px;
+    padding: 10px 0 10px 20px;
+  }
+  
+  details p {
+    background-color: #303030;
+    margin-top: 1px;
+    font-size: 26px;
+    padding: 30px;
+  }
+  
+  i {
+    font-size: 35px;
+    float: right;
+    padding: 8px 20px 0 0;
+  }
+  
+  .second-div {
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3em;
+  }
+  
+  .second-div p {
+    font-size: 1.2em;
+  }
+  
+  /* .btn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e50914;
+    padding: 11px 25px 15px 25px;
+    text-decoration: none;
+    text-align: center;
+    
+  }*/
+
+  .btn{
+    background-color: #eb0000; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 15%;
+    height: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+ }
+ 
+ .Email{
+    background-color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 30%;
+    height: 50px;
+    padding-left: 8px;
+    border: none;
+ 
+ }
+  .btn:hover {
+    background: #ff0314;
+    text-decoration: none;
+  }
+  .Ready-bottom {
+    margin-bottom: 1.5%;
+  }
+  
+  .foot-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+  ul {
+    list-style-type:none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    line-height: 2.5;
+  
+  }
+  footer {
+    border-top: 9px solid rgb(102, 101, 101);
+    justify-content: space-around;
+    color: #737373;
+    font-size: 14px;
+    
+  }
+  footer p {
+    margin: 20px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #737373;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 992px) {
+    summary {
+      background-color: #303030;
+      font-size: 1.3rem;
+      line-height: 60px;
+      letter-spacing: 1px;
+      padding: 10px 0 10px 20px;
+    }
+  
+    i {
+      font-size: 15px;
+      float: right;
+      padding: 8px 20px 0 0;
+    }
+  
+    .btn {
+      margin: 5%;
+    }
+  
+    details {
+      margin: 1% 2%;
+      cursor: pointer;
+    }
+  
+    input {
+      font-size: 15px;
+    }
+  }
+  
+  @media(max-width: 769px) {
+
+    .signin{
+        background-color: #eb0000;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 15%;
+        height: 30px;
+        font-family: sans-serif;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 5px;
+      }
+    #Unlimited{
+            font-size: 55px;
+            margin-bottom: -1rem;
+      }
+        #Watch{
+            font-size: 28px;
+        }
+        #Ready{
+            font-size: 22px;
+
+}
+.Getstarted{
+    background-color: #eb0000; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    height: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+    display: block;
+    margin-top: 1em;
+    margin-left: 40%;
+}
+.Email{
+    background-color: white;
+    text-align: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 70%;
+    height: 50px;
+    padding-left: 8px;
+    border: none;
+    
+}
+.logo{
+    height: 30px;
+    width: fit-content;
+}
+  }
