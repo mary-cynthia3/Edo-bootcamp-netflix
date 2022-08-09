@@ -413,7 +413,8 @@ body {
     i {
       font-size: 15px;
       float: right;
-      padding: 8px 20px 0 0;
+      padding: 8px 10px 0 0;
+      margin-top: 9px;
     }
   
     .btn {
@@ -448,14 +449,17 @@ body {
         padding: 5px;
       }
     #Unlimited{
-            font-size: 55px;
-            margin-bottom: -1rem;
+            font-size: 30px;
+            margin-bottom: 1rem;
+            margin-top: -3em;
       }
         #Watch{
-            font-size: 28px;
+            font-size: 20px;
+            margin-bottom: 1em;
         }
         #Ready{
-            font-size: 22px;
+            font-size: 20px;
+            margin-bottom: 3px;
 
 }
 .Getstarted{
@@ -466,12 +470,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 25%;
+    width: 29%;
     height: 50px;
     font-family: sans-serif;
     cursor: pointer;
     display: block;
-    margin-top: 1em;
+    /* margin-top: %; */
     margin-left: 40%;
 }
 .Email{
@@ -479,10 +483,11 @@ body {
     text-align: left;
     font-size: 16px;
     font-family: sans-serif;
-    width: 70%;
+    width: 80%;
     height: 50px;
     padding-left: 8px;
     border: none;
+    margin-bottom: 2em;
     
 }
 .logo{
